@@ -2,7 +2,7 @@
     "watch": ["src", "config"],
     "ignore": ["node_modules", "dist"],
     "ext": "js,json,ts",
-    "exec": "ts-node src/index.ts",
+    "exec": "ts-node src/app.ts",
     "env": {
         "NODE_ENV": "development",
         "PORT": 3000
